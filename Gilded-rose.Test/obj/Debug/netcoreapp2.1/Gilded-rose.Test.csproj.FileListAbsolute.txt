@@ -1,0 +1,15 @@
+C:\Users\otperez\Desktop\Repos\Gilded_Rose\Gilded-rose.Test\bin\Debug\netcoreapp2.1\Gilded-rose.Test.deps.json
+C:\Users\otperez\Desktop\Repos\Gilded_Rose\Gilded-rose.Test\bin\Debug\netcoreapp2.1\Gilded-rose.Test.runtimeconfig.json
+C:\Users\otperez\Desktop\Repos\Gilded_Rose\Gilded-rose.Test\bin\Debug\netcoreapp2.1\Gilded-rose.Test.runtimeconfig.dev.json
+C:\Users\otperez\Desktop\Repos\Gilded_Rose\Gilded-rose.Test\bin\Debug\netcoreapp2.1\Gilded-rose.Test.dll
+C:\Users\otperez\Desktop\Repos\Gilded_Rose\Gilded-rose.Test\bin\Debug\netcoreapp2.1\Gilded-rose.Test.pdb
+C:\Users\otperez\Desktop\Repos\Gilded_Rose\Gilded-rose.Test\bin\Debug\netcoreapp2.1\Gilded-rose.dll
+C:\Users\otperez\Desktop\Repos\Gilded_Rose\Gilded-rose.Test\bin\Debug\netcoreapp2.1\Gilded-rose.pdb
+C:\Users\otperez\Desktop\Repos\Gilded_Rose\Gilded-rose.Test\obj\Debug\netcoreapp2.1\Gilded-rose.Test.csproj.AssemblyReference.cache
+C:\Users\otperez\Desktop\Repos\Gilded_Rose\Gilded-rose.Test\obj\Debug\netcoreapp2.1\Gilded-rose.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\otperez\Desktop\Repos\Gilded_Rose\Gilded-rose.Test\obj\Debug\netcoreapp2.1\Gilded-rose.Test.AssemblyInfoInputs.cache
+C:\Users\otperez\Desktop\Repos\Gilded_Rose\Gilded-rose.Test\obj\Debug\netcoreapp2.1\Gilded-rose.Test.AssemblyInfo.cs
+C:\Users\otperez\Desktop\Repos\Gilded_Rose\Gilded-rose.Test\obj\Debug\netcoreapp2.1\Gilded-rose.Test.csproj.CoreCompileInputs.cache
+C:\Users\otperez\Desktop\Repos\Gilded_Rose\Gilded-rose.Test\obj\Debug\netcoreapp2.1\Gilded-rose.Test.dll
+C:\Users\otperez\Desktop\Repos\Gilded_Rose\Gilded-rose.Test\obj\Debug\netcoreapp2.1\Gilded-rose.Test.pdb
+C:\Users\otperez\Desktop\Repos\Gilded_Rose\Gilded-rose.Test\obj\Debug\netcoreapp2.1\Gilded-rose.Test.genruntimeconfig.cache
