@@ -10,11 +10,11 @@ namespace Gilded_rose
 
             if (item.SellIn > 0)
             {
-                item.Quality = Math.Max(item.Quality -= 2, 0);
+                item.Quality = Math.Max(item.Quality - 2, 0);
             }
             else if (item.SellIn < 0)
             {
-                item.Quality = Math.Max(item.Quality -= 4, 0);
+                item.Quality = Math.Max(item.Quality - 4, 0);
             }
         }
     }
