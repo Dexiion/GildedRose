@@ -20,6 +20,9 @@ namespace Gilded_rose
                 },
                 {
                     "Sulfuras, Hand of Ragnaros", () => new SulfurasItem()
+                },
+                {
+                    "Conjured", () => new ConjuredItem()
                 }
             };
         }

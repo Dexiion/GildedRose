@@ -140,5 +140,29 @@ namespace KataGildedRose.Tests
             Items.First().SellIn.Should().Be(-1);
             Items.First().Quality.Should().Be(0);
         }
+
+        [Test]
+        public void drop_quality_by_two_in_conjured()
+        {
+            IList<Item> Items = new List<Item> { new Item { Name = "Conjured", SellIn = 15, Quality = 45 } };
+            var app = new GildedRose(Items);
+
+            app.UpdateQuality();
+
+            Items.First().SellIn.Should().Be(14);
+            Items.First().Quality.Should().Be(43);
+        }
+
+        [Test]
+        public void drop_quality_by_four_when_sellIn_passed_in_conjured()
+        {
+            IList<Item> Items = new List<Item> { new Item { Name = "Conjured", SellIn = 0, Quality = 45 } };
+            var app = new GildedRose(Items);
+
+            app.UpdateQuality();
+
+            Items.First().SellIn.Should().Be(-1);
+            Items.First().Quality.Should().Be(41);
+        }
     }
 }

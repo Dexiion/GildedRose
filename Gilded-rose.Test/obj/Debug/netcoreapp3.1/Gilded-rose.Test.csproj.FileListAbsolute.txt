@@ -95,4 +95,3 @@ C:\Users\otperez\Desktop\Repos\Gilded_Rose\Gilded-rose.Test\obj\Debug\netcoreapp
 C:\Users\otperez\Desktop\Repos\Gilded_Rose\Gilded-rose.Test\obj\Debug\netcoreapp3.1\Gilded-rose.Test.dll
 C:\Users\otperez\Desktop\Repos\Gilded_Rose\Gilded-rose.Test\obj\Debug\netcoreapp3.1\Gilded-rose.Test.pdb
 C:\Users\otperez\Desktop\Repos\Gilded_Rose\Gilded-rose.Test\obj\Debug\netcoreapp3.1\Gilded-rose.Test.genruntimeconfig.cache
-C:\Users\otperez\Desktop\Repos\Gilded_Rose\Gilded-rose.Test\obj\Debug\netcoreapp3.1\Gilded-rose.Test.csproj.CopyComplete
