@@ -56,7 +56,19 @@ namespace KataGildedRose.Tests
             Items.First().SellIn.Should().Be(9);
             Items.First().Quality.Should().Be(21);
         }
-        
+
+        [Test]
+        public void increase_by_one_when_sellIn_goes_to_0_in_aged_brie()
+        {
+            IList<Item> Items = new List<Item> { new Item { Name = "Aged Brie", SellIn = 1, Quality = 45 } };
+            var app = new GildedRose(Items);
+
+            app.UpdateQuality();
+
+            Items.First().SellIn.Should().Be(0);
+            Items.First().Quality.Should().Be(46);
+        }
+
         [Test]
         public void increase_twice_quality_when_sellDate_passed_in_aged_brie()
         {
@@ -82,7 +94,7 @@ namespace KataGildedRose.Tests
         }
 
         [Test]
-        public void dont_change_quality_and_sellin_when_it_is_sulfuras()
+        public void dont_change_quality_and_sellIn_when_it_is_sulfuras()
         {
             IList<Item> Items = new List<Item> { new Item { Name = "Sulfuras, Hand of Ragnaros", SellIn = 10, Quality = 80 } };
             var app = new GildedRose(Items);
