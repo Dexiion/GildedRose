@@ -1,4 +1,6 @@
-﻿namespace Gilded_rose
+﻿using System;
+
+namespace Gilded_rose
 {
     public class ConjuredItem : IItem
     {
@@ -6,13 +8,13 @@
         {
             item.SellIn -= 1;
 
-            if (item.SellIn > 0 && item.Quality > 0)
+            if (item.SellIn > 0)
             {
-                item.Quality -= 2;
+                item.Quality = Math.Max(item.Quality -= 2, 0);
             }
-            else if (item.SellIn < 0 && item.Quality > 0)
+            else if (item.SellIn < 0)
             {
-                item.Quality -= 4;
+                item.Quality = Math.Max(item.Quality -= 4, 0);
             }
         }
     }

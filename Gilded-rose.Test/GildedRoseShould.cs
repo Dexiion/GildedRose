@@ -164,5 +164,17 @@ namespace KataGildedRose.Tests
             Items.First().SellIn.Should().Be(-1);
             Items.First().Quality.Should().Be(41);
         }
+
+        [Test]
+        public void drop_quality_to_zero_when_sellIn_passed_and_quality_is_lower_than_4_in_conjured()
+        {
+            IList<Item> Items = new List<Item> { new Item { Name = "Conjured", SellIn = 0, Quality = 3 } };
+            var app = new GildedRose(Items);
+
+            app.UpdateQuality();
+
+            Items.First().SellIn.Should().Be(-1);
+            Items.First().Quality.Should().Be(0);
+        }
     }
 }
